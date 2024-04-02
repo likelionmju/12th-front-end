@@ -1,0 +1,81 @@
+body{
+    margin: 0%;
+}
+.nav-title{
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-cont{
+    display: flex;
+    justify-content: space-between;
+    background-color: lavender;
+}
+.nav-cont>ul{
+    margin: 0%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+li>a{
+    margin-right: 50px;
+}
+.blog-logo{
+    height: 40px;
+}
+.insta-logo{
+    height: 34px;
+}
+.main-title-cont{
+    background-color: darkorchid;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
+.title-cont{   
+    color: white;
+    margin-left: 50px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.subtitle{
+    margin: 0px;
+    font-size: 26px;
+}
+.maintitle{
+    margin: 0px;
+    font-size: 43px;
+}
+.content-cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 685px;
+}
+.me{
+    width: 500px;
+    height: 500px;
+}
+.more{
+    color: darkorchid;
+    padding-top: 15px;
+}
+.mayo{
+    width: 200px;
+}
+.chichi{
+    width: 200px;
+}
+#footer{
+    background-color: lavender;
+}
+.footer-cont{
+    display: flex;
+    align-items: center;
+    height: 56.8px;
+}
+.copyright{
+    margin-left: 50px;
+}
