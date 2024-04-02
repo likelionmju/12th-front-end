@@ -1,0 +1,112 @@
+ul {
+  list-style: none;
+}
+a {
+  text-decoration-line: none;
+  color: black;
+  margin-right: 30px;
+  font-size: 15px;
+}
+.container {
+  display: flex;
+  background-color: rgb(249, 220, 255);
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.nav-container {
+  display: flex;
+}
+img {
+  width: 100px;
+}
+.introduce {
+  background-color: rgb(249, 220, 255);
+  width: 310px;
+  margin-top: 10px;
+  height: 2000px;
+}
+.my_image {
+  width: 250px;
+  margin-left: 30px;
+}
+.name {
+  font-size: 30px;
+  margin-left: 20px;
+}
+.another_name {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.me {
+  margin-left: 20px;
+}
+.profile {
+  margin-left: 100px;
+  margin-top: 30px;
+  padding-top: 30px;
+  font-size: 30px;
+}
+.feature {
+  margin-left: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  border-bottom: 30px;
+}
+.playlist {
+  margin-left: 50px;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.music {
+  width: 150px;
+  margin-left: 80px;
+}
+
+.git {
+  height: 20px;
+  width: 20px;
+}
+body {
+  background-color: rgb(240, 243, 255);
+}
+.insta {
+  height: 20px;
+  width: 20px;
+}
+.title {
+  margin-right: 500px;
+  font-size: 30px;
+}
+.search_container {
+  display: flex;
+}
+.question {
+  font-size: 30px;
+}
+.whole {
+  display: flex;
+}
+.visit {
+  width: 1500px;
+  height: 500px;
+  background-color: rgb(249, 220, 255);
+  margin-left: 50px;
+  margin-top: 10px;
+  text-align: center;
+}
+.text {
+  font-size: 30px;
+}
+textarea {
+  width: 1000px;
+  height: 300px;
+}
+.check {
+  padding: 10px 25px 10px 25px;
+  border-radius: 30px;
+  background-color: rgb(174, 141, 204);
+  border: 1px solid rgb(174, 141, 204);
+}
+.check:hover {
+  background-color: rgb(110, 7, 207);
+}
