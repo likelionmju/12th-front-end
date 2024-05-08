@@ -6,6 +6,7 @@
   height: 90vh;
   width: 550px;
   border-radius: 20px;
+  margin: auto;
 }
 #main-section {
   display: flex;
@@ -30,9 +31,13 @@
   background-color: #060053;
   border-radius: 20px;
   margin-bottom: 40px;
+  color: white;
+}
+.test:hover {
+  background-color: white;
+  color: #060053;
 }
 .test_word {
-  color: white;
   font-weight: bold;
   font-size: 15px;
 }
@@ -61,6 +66,7 @@
   width: 550px;
   border-radius: 20px;
   margin-top: 20px;
+  margin: auto;
 }
 #QnA-section {
   justify-content: center;
@@ -106,7 +112,7 @@
 .Q-WORD,
 .Q2-WORD {
   font-weight: bold;
-  color: #060053;
+
   text-align: center;
   font-size: 15px;
 }
@@ -121,6 +127,12 @@
   width: 80%;
   height: 50px;
   margin-left: 55px;
+  color: #060053;
+}
+.Q-1:hover,
+.Q-2:hover {
+  background-color: #060053;
+  color: white;
 }
 #test_result {
   justify-content: center;
@@ -131,6 +143,7 @@
   width: 550px;
   border-radius: 20px;
   margin-top: 20px;
+  margin: auto;
 }
 #result-section {
   justify-content: center;
