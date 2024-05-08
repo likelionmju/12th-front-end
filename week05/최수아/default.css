@@ -1,0 +1,18 @@
+body {
+    background-color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: #060053;
+    width: 80%;
+    height: 95vh;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
