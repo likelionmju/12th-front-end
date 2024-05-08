@@ -28,5 +28,5 @@ console.log(greeting('김미미'));
 //함수 심화-예제2.
 let fruits = ['Apple', 'Banana', 'Cherry'];
 fruits.forEach((fruits, index) => {
-  console.log(`${index + 1}. ${value}`);
+  console.log(`${index + 1}. ${fruits}`);
 });

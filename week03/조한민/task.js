@@ -10,7 +10,9 @@ foods.push('아이스크림')
 console.log(foods)
 
 //연습문제3.
-foods.splice(2, 0, '빵')
+let foods_1 = ['치즈', '요구르트', '우유']
+foods_1.push('아이스크림')
+foods_1.splice(2, 0, '빵')
 console.log(foods)
 
 //연습문제4.
@@ -32,8 +34,12 @@ const num2 = Number(prompt('숫자를 입력하세요'))
 if(num2%2 == 0){
   console.log("입력한 수는 짝수입니다")
 }
-else(num2%2 == 1) {
+else if(num2%2 == 1) {
   console.log("입력한 수는 홀수입니다")
+}
+
+else {
+  console.log("0입니다")
 }
 
 //연습문제6. 
@@ -44,11 +50,12 @@ for(let i=1; i<=10; i++){
 console.log(`결과값: ${addResult}`)
 
 //연습문제7.
-for(let i=0; i<5; i++){
-  console.log()
-  for(let j=0; j<5; j++){
-
+for (let i = 1; i <= 5; i++) { 
+  let stars = '';
+  for (let j = 1; j <= i; j++) { 
+      stars += '*'; 
   }
+  console.log(stars); 
 }
 
 //연습문제8. 

@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(246, 246, 246);
+}
+
+#Login_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 4%;
+  padding: 30px;
+  gap: 20px;
+  background-color: white;
+}
+
+#Logo {
+  font-size: 30px;
+}
+
+#kakaotalk_login_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7e600;
+  width: 405px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+#kakao_txt {
+  margin-top: 3px;
+}
+
+img {
+  margin-right: 10px;
+}
+
+input {
+  display: flex;
+  width: 396px;
+  height: 30px;
+}
+
+#Password_input_div {
+  margin-top: 5px;
+}
+
+#login_btn {
+  width: 405px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+#login_success_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.login_success_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 50px 70px;
+  gap: 13px;
+  background-color: white;
+}
+
+#check_btn {
+  width: 150px;
+  height: 40px;
+  background-color: #e67800;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+}
+
+#login_success_text_div {
+  font-size: 30px;
+}
