@@ -21,7 +21,7 @@ const popupOpen = document.querySelector('#login-btn');
 const popupClose = document.querySelector('#confirm-btn');
 
 popupOpen.addEventListener('click',function(){
-    popupSection.style.display = 'block';
+    popupSection.style.display = 'flex';
     loginSection.style.display = 'none';
 });
 

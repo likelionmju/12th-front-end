@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,29 +10,30 @@
     <link rel="stylesheet" href="./result.css" type="text/css"/>
     <title>Test</title>
 </head>
+
 <body>
     <section id="container">
+        <!-- main -->
         <section id="main">
-            <p id="mju">LIKELION X MJU(SEOUUL)</p>
-            <p id="th">12th</p>
-            <p id="title">나는 어떤 <br> 프로그래밍 언어일까?</p>
+            <span id="mju">LIKELION X MJU(SEOUUL)</span>
+            <sapn id="th">12th</sapn>
+            <div id="title-container">
+                <apan id="title-1">나는 어떤</apan>
+                <span id="title-2">프로그래밍 언어일까?</span>
+            </div>
             <img id="mainImage" src="./sample-main-image.png" alt="mainImage">
             <button type="button" id="goTest-btn" onclick="js:begin()">테스트 하러가기</button>
         </section>
+        <!-- qna -->
         <section id="qna">
             <div class="status">
-                <p class="statusNumber">1/12</p>
-                <div class="statusBar">
-
-                </div>
+                <span class="statusNumber">1/12</span>
+                <div class="statusBar"></div>
             </div>
-            <div class="qBox">
-
-            </div>
-            <div class="answerBox">
-
-            </div>
+            <div class="qBox"></div>
+            <div class="answerBox"></div>
         </section>
+        <!-- result -->
         <section id="result">
             <div class="resultName">
                 <p>Android 앱 개발, 서버 개발에 관심이 있고 모던한 언어를 선호하는 사람</p>
@@ -47,4 +49,5 @@
     <script src="./data.js"></script>
     <script src="./start.js"></script>
 </body>
+
 </html>
