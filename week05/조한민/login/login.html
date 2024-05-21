@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <section id="Login_section">
+      <div class="login-wrapper">
+        <div id="Logo">
+          <h1>Login</h1>
+        </div>
+
+        <div id="kakaotalk_login_div">
+          <button id="kakaotalk_login_btn">
+            <img
+              src="https://auth.techit.education/static/img/kakao_talk.svg"
+              alt="kakao"
+            />
+            <strong id="kakao_txt">카카오톡으로 로그인</strong>
+          </button>
+        </div>
+
+        <form id="input_div">
+          <div id="Email_input">
+            <input id="emailId" type="email" placeholder="이메일" />
+          </div>
+
+          <div id="Password_input_div">
+            <input id="passwordId" type="password" placeholder="비밀번호" />
+          </div>
+
+          <div id="login_btn_div">
+            <button id="login_btn">로그인</button>
+          </div>
+        </form>
+
+        <div id="lost_password_div">
+          <a id="lost_password_text">비밀번호를 잊으셨나요?</a>
+        </div>
+      </div>
+    </section>
+    <section id="login_success_section">
+      <div class="login_success_wrapper">
+        <div id="login_success_text_div">
+          <p><strong>로그인에 성공하였습니다.</strong></p>
+        </div>
+        <div id="check_btn_div">
+          <button id="check_btn">확인</button>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="login.js"></script>
+  </body>
+</html>
