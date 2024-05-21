@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="5주차 실습.css"rel="stylesheet"type="text/css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Practice</title>
+</head>
+<body>
+    <section id="login_section">
+        <div class="login_box">
+            <div class="login_logo">Login</div>
+            <button class="kakao_login">
+            <img src="https://auth.techit.education/static/img/kakao_talk.svg">
+            <span>카카오톡로그인</span>
+            </button>        
+       <!--로그인 상자 -->
+            <form class="login_form">
+                <input type="email" id="login_id" placeholder="email"> 
+                <input type="password" id="password" placeholder="비밀번호">
+            </form>
+            <button id="login_btn">로그인</button>
+        <!-- 새로운 상자 -->
+            <a id="login_tag">비밀번호를 잊으셨나요</a>
+        </div>
+    </section>
+    <section id="login_success">
+        <div class="login_clear">
+            <div class="logo">로그인에 성공하였습니다.</div>
+            <button id="clear_btn">확인</button>
+        </div>
+    </section>
+    <script src="./5주차 실습.js"></script>            
+</body>
+</html>

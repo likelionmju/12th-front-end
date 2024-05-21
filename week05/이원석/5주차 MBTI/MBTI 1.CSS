@@ -1,0 +1,96 @@
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #060053;
+    width: 450px;
+    height: 550px;     /* 너비설정이 이상함 */
+    border-radius: 10px;
+
+}
+
+.third {
+    display: flex;
+    flex-direction: column; 
+    background-color: white;
+    width: 80%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px; /* 모서리 곡률 크기 설정 */
+
+}
+
+.hello {
+    /* background-color: yellow; */
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    position: relative;
+    /* top: -15%; */
+    /* margin-bottom: 10px; */
+}
+
+.hello2 {
+    /* background-color: yellow; */
+    font-size: 10px;
+    font-weight: 700;
+    position: relative;
+    /* top: -15%; */
+    /* margin-bottom: 10px; */
+}
+
+.fourth {
+    border: 2px solid #060053; 
+    border-radius: 10px;
+    width: 60%;
+    padding: 10px; /* 내부 여백을 10px로 설정하여 텍스트와 태두리 사이의 간격을 조정 */
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.fourth p {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 5px
+
+}
+
+img {
+    width: 75%; 
+    display: block;
+    /* margin: 0 auto; */
+    /* margin-top: 50%; */
+    /* position: relative; */
+    /* margin-top: 60px; */
+    /* margin-bottom: 10px; */
+    /* margin-bottom: -150px; */
+}
+
+.btn{
+    display: block;
+    background-color: #060053;
+    width: 200px; 
+    height: 50px; 
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+

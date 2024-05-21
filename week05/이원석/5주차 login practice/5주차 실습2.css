@@ -1,0 +1,29 @@
+.login_success{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 150px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
+.logo{
+    /* background-color: yellow; */
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.clear_btn{
+    display: block;
+    background-color: orange;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px
+}
