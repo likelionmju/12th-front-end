@@ -1,0 +1,13 @@
+.viewer {
+    background-color: rgb(246, 246, 246);
+    margin-left: 700px;
+    margin-right: 400px;
+    padding: 20px;
+    padding-bottom: 40px;
+    line-height: 40px;
+}
+
+.count {
+    font-weight: bold;
+    font-size: x-large;
+}
